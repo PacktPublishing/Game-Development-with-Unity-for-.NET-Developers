@@ -1,73 +1,64 @@
 # Game Development with Unity for .NET Developers
 
+<a href="https://www.packtpub.com/product/game-development-with-unity-for-net-developers/9781801078078"><img src="https://static.packt-cdn.com/products/9781801078078/cover/smaller" alt="Game Development with Unity for .NET Developers" height="256px" align="right"></a>
 
-<a href="https://www.amazon.com/Game-Development-Unity-NET-Developers-ebook-dp-B09P5R4QPS/dp/B09P5R4QPS"><img src="https://static.packt-cdn.com/products/9781801078078/cover/smaller" alt="Game Development with Unity for .NET Developers" height="256px" align="right"></a>
-
-This is the code repository for [Game Development with Unity for .NET Developers](https://www.amazon.com/Game-Development-Unity-NET-Developers-ebook-dp-B09P5R4QPS/dp/B09P5R4QPS), published by Packt.
+This is the code repository for [Game Development with Unity for .NET Developers](https://www.packtpub.com/product/game-development-with-unity-for-net-developers/9781801078078), published by Packt.
 
 **The ultimate guide to creating games with Unity and Microsoft Game Stack**
 
 ## What is this book about?
-As one of the most widely used game engines in the world, **Unity** provides easy-to-use and powerful game development tools, which undoubtedly attracts many developers to choose it to develop their own games. However, the tools needed in modern game development are not limited to game engines; other tools and services such as the **cloud** are increasingly used in game development. In this book, we will explore how to use the **Unity game engine** and the **Microsoft Game Dev**, including the **Microsoft Azure Cloud** and **Microsoft Azure PlayFab** services, to create games.
+Understand what makes Unity the world’s most widely used real-time 3D development platform and explore its powerful features for creating 3D and 2D games, as well as the Unity game engine and the Microsoft Game Dev, including the Microsoft Azure Cloud and Microsoft Azure PlayFab services, to create games.
 
-## Basic Unity Concepts
+This book covers the following exciting features:
+* Get to grips with using the Unity Editor
+* Use C# scripts to work with Unity's built-in modules such as UI, animation, physics, video, and audio
+* Create a custom render pipeline in Unity Engine with the latest Scriptable Render Pipeline
+* Write high-performance multithreaded code with the latest DOTS in Unity
+* Discover the Azure PlayFab Client library for C# in Unity
+* Understand how the asset management and serialization system within Unity really works
+* Explore some of the most commonly used profiler tools in Unity development
 
-Starting by understanding the fundamentals of the Unity game engine, you will gradually become familiar with the Unity Editor and the key concepts of writing Unity scripts in C#, which will get you ready to make your own game.
-Then, you’ll learn how to work with Unity’s built-in modules, such as the **UI** system, **Animation** system, **Physics** system, and how to integrate **video and audio** in your game to make your game more interesting.
-
-<img src="https://cdn-images-1.medium.com/max/2210/1*7fD149MvJRiImBq0CNP9ww.png" width="666">
-
-
-### What you will learn in this part
-
-* Get to grips with using the **Unity Editor**
-
-* Use C# scripts to work with Unity’s **built-in modules** such as UI, Animation, Physics, Video and Audio
-
-* Explore the most commonly used **profiler tools** in Unity development
-
-<img src="https://cdn-images-1.medium.com/max/2174/1*ZL02QjR-Z5AclQ-H1l7U2Q.png" width="666">
+If you feel this book is for you, get your [copy](https://www.amazon.com/Game-Development-Unity-NET-Developers/dp/1801078076) today!
 
 
-## Advanced Scripting In Unity
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
 
-As you progress through the chapters, I’ll take you through advanced topics, such as the math involved in computer graphics, how to create post-processing effects in Unity with the new **Scriptable Render Pipeline**, how to use Unity’s **C# Job System** to implement **multithreading**, and how to use Unity’s **Entity Component System (ECS)** to write game logic code in a data-oriented way to improve game performance.
+The code will look like the following:
+```
+public class AwakeAndStartA : MonoBehaviour
+{
+private List<int> _listRef;
+public List<int> ListRef => _listRef;
+private void Awake()
+{
+_listRef = new List<int>();
+}
+}
+```
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*hRZKvzitWv_e_rvXgputnw.png" width="666">
+**Following is what you need for this book:**
+The book is for developers with intermediate .NET and C# programming experience who are interested in learning game development with Unity. Basic experience in C# programming is assumed.
 
-### What you will learn in this part
+With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 
-* Create **post-processing** effects in Unity with the latest **Scriptable Render Pipeline**
-
-* Write high-performance multithreaded code with the latest **Data-Oriented Technology Stack (DOTS)** in Unity
-
-*  **Coroutines** vs **Async** vs **C# Job System** in Unity Scripting
-
-* **Data-oriented** design vs **Object-oriented** design in Unity Scripting
-
-* Understand how the **assets management** and **serialization** system in Unity really works
-
-<img src="https://cdn-images-1.medium.com/max/2000/1*9QpNv2FZZjueKclyQnXx-w.png" width="666">
-
-## Unity and Microsoft Game Dev
-
-Along the way, you’ll also learn about the **Microsoft Game Dev**, the **Azure cloud** services, **Azure PlayFab**, and using the Unity3D PlayFab SDK to access the PlayFab API to save and load data from the cloud.
-
-![](https://cdn-images-1.medium.com/max/2000/1*gYMW8q8C4PzZYV305F7P_w.png)
-
-### What you will learn in this part
-
-* Learn what the **Microsoft Azure cloud** is and what services it offers, especially those that can be used in game development
-
-* Explore the **Azure PlayFab** Client library for C# in Unity
-
-* Learn how to create **Azure cloud storage services** and host Unity’s **addressable** content for incremental updates to your games
-
-<img src="https://cdn-images-1.medium.com/max/2540/1*1PewXWxOs_CEP36WvDOfTg.png" width="666">
+### Software and Hardware List
+| Chapter | Software/Hardware required | OS required |
+| -------- | ------------------------------------ | ----------------------------------- |
+| 1-11 | Unity 2020.3+ | Windows Mac OS X and Linux  |
+| 1-11 | The Microsoft Azure Portal | Windows Mac OS X and Linux  |
+| 1-11 | Visual Studio 2019 Community | Windows Mac OS X and Linux  |
 
 
-By the end of this book, you’ll be familiar with the Unity game engine, have a high-level understanding of the Azure cloud, and be ready to develop your own games.
+### Related products
+* Hands-on Game Development with Unity 2018.1 [[Packt]](https://www.packtpub.com/product/hands-on-game-development-with-unity-2018-1-video/9781786465436)
 
-🔥🔥🔥 Check it out! ⬇️⬇️⬇️
+* Customizing ASP.NET Core 6.0 [[Packt]](https://www.packtpub.com/product/customizing-asp-net-core-6-0-second-edition/9781803233604) [[Amazon]](https://www.amazon.com/Customizing-ASP-NET-Core-6-0-applications/dp/1803233605)
 
-[**Game Development with Unity for .NET Developers**](https://www.amazon.com/Game-Development-Unity-NET-Developers-ebook-dp-B09P5R4QPS/dp/B09P5R4QPS)
+
+## Get to Know the Author
+
+**Jiadong Chen**
+is one of 3,000 international Microsoft ® Most Valuable Professional (MVP) award winners, recognized by Microsoft as one of the technology industry's best and brightest six years in a row, and is currently working as a senior soft ware developer at Company-X, based in Hamilton, New Zealand.
+He specializes in the Microsoft Azure cloud, Unity and XR development, and .NET/C#. He is a Microsoft Certified Azure Solutions Architect Expert, a Microsoft Certified Azure Developer, a Microsoft Certified Azure AI Engineer, and a Microsoft Certified Trainer. He is also a member of the .NET Foundation.
+Before joining Company-X, Jiadong worked for Unity, the creator of the world's most widely used real-time 3D development platform, as a field engineer.
