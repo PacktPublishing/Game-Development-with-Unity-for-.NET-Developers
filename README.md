@@ -62,3 +62,7 @@ With the following software and hardware list you can run all code files present
 is one of 3,000 international Microsoft ® Most Valuable Professional (MVP) award winners, recognized by Microsoft as one of the technology industry's best and brightest six years in a row, and is currently working as a senior soft ware developer at Company-X, based in Hamilton, New Zealand.
 He specializes in the Microsoft Azure cloud, Unity and XR development, and .NET/C#. He is a Microsoft Certified Azure Solutions Architect Expert, a Microsoft Certified Azure Developer, a Microsoft Certified Azure AI Engineer, and a Microsoft Certified Trainer. He is also a member of the .NET Foundation.
 Before joining Company-X, Jiadong worked for Unity, the creator of the world's most widely used real-time 3D development platform, as a field engineer.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801078078">https://packt.link/free-ebook/9781801078078 </a> </p>
